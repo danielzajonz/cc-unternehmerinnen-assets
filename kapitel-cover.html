@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kapitel-Cover</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  /* Hintergrundbild — vollflächig */
+  background-image: url('{{kapitel_bild}}');
+  background-size: cover;
+  background-position: center;
+  background-color: #d4c9c6; /* Fallback */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Dunkles Overlay für Lesbarkeit */
+.page::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+/* Alles über dem Overlay */
+.page > * {
+  position: relative;
+  z-index: 1;
+}
+
+.chapter-number {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 120px;
+  color: rgba(255,255,255,0.12);
+  line-height: 1;
+  margin-bottom: 8mm;
+}
+
+.chapter-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 5mm;
+}
+
+.chapter-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #fff;
+  line-height: 1.2;
+  max-width: 140mm;
+  margin-bottom: 6mm;
+}
+
+.chapter-divider {
+  width: 60px;
+  height: 1px;
+  background: rgba(255,255,255,0.5);
+  position: relative;
+  margin-bottom: 6mm;
+}
+.chapter-divider::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: #A30009;
+}
+
+.chapter-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 16px;
+  color: rgba(255,255,255,0.8);
+  max-width: 130mm;
+  line-height: 1.5;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 22mm;
+  right: 22mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: rgba(255,255,255,0.4);
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(255,255,255,0.15);
+  padding-top: 2.5mm;
+  z-index: 1;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="chapter-number">{{kapitel_nr}}</div>
+  <div class="chapter-label">Kapitel {{kapitel_nr}}</div>
+  <div class="chapter-title">{{kapitel_titel}}</div>
+  <div class="chapter-divider"></div>
+  <div class="chapter-subtitle">{{kapitel_untertitel}}</div>
+
+  <div class="page-footer">
+    <span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>

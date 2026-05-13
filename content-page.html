@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content-Seite</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  padding: 22mm 26mm 20mm 26mm;
+  /* Hintergrundfarbe wechselt pro Kapitel:
+     Ungerade Kapitel (01, 03, 05...): #ede9e6 (helles Beige)
+     Gerade Kapitel (02, 04, 06...):   #d4c9c6 (Rose/Taupe)
+  */
+  background: {{bg_color}};
+}
+
+/* Ornamentale Ecken */
+.corner-deco {
+  position: absolute;
+  width: 20mm;
+  height: 20mm;
+  border-color: rgba(163,0,9,0.15);
+  border-style: solid;
+}
+.corner-deco.tl { top: 12mm; left: 12mm; border-width: 0.5px 0 0 0.5px; }
+.corner-deco.tr { top: 12mm; right: 12mm; border-width: 0.5px 0.5px 0 0; }
+.corner-deco.bl { bottom: 12mm; left: 12mm; border-width: 0 0 0.5px 0.5px; }
+.corner-deco.br { bottom: 12mm; right: 12mm; border-width: 0 0.5px 0.5px 0; }
+
+.corner-diamond {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: rgba(163,0,9,0.2);
+  transform: rotate(45deg);
+}
+.corner-diamond.tl { top: 11mm; left: 11mm; }
+.corner-diamond.tr { top: 11mm; right: 11mm; }
+.corner-diamond.bl { bottom: 11mm; left: 11mm; }
+.corner-diamond.br { bottom: 11mm; right: 11mm; }
+
+/* Kapitel-Header */
+.chapter-header {
+  display: flex;
+  align-items: baseline;
+  gap: 3mm;
+  margin-bottom: 4mm;
+}
+
+.chapter-nr {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  color: #A30009;
+  letter-spacing: 1px;
+}
+
+.chapter-name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #999;
+}
+
+/* Section title */
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.25;
+  margin-bottom: 3mm;
+}
+
+/* Divider */
+.divider {
+  width: 40px;
+  height: 1px;
+  background: #A30009;
+  margin-bottom: 5mm;
+  position: relative;
+}
+.divider::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 17px;
+  width: 6px;
+  height: 6px;
+  background: #A30009;
+  transform: rotate(45deg);
+}
+
+/* Body text */
+.body-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.85;
+  color: #222;
+}
+
+.body-text p {
+  margin-bottom: 4.5mm;
+}
+
+.body-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Highlight box */
+.highlight-box {
+  background: rgba(255,255,255,0.5);
+  border-left: 3px solid #A30009;
+  border-radius: 0 6px 6px 0;
+  padding: 4mm 5mm;
+  margin: 5mm 0;
+}
+
+.highlight-box p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+}
+
+/* Pull quote */
+.pull-quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #A30009;
+  border-left: 2px solid #A30009;
+  padding-left: 5mm;
+  margin: 5mm 0;
+}
+
+/* Footer */
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 26mm;
+  right: 26mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: #aaa;
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.12);
+  padding-top: 2.5mm;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <!-- Ornamentale Ecken -->
+  <div class="corner-deco tl"></div>
+  <div class="corner-deco tr"></div>
+  <div class="corner-deco bl"></div>
+  <div class="corner-deco br"></div>
+  <div class="corner-diamond tl"></div>
+  <div class="corner-diamond tr"></div>
+  <div class="corner-diamond bl"></div>
+  <div class="corner-diamond br"></div>
+
+  <!-- Kapitel-Header -->
+  <div class="chapter-header">
+    <span class="chapter-nr">{{kapitel_nr}}</span>
+    <span class="chapter-name">{{kapitel_titel}}</span>
+  </div>
+
+  <!-- Content — wird dynamisch befüllt -->
+  {{content}}
+
+  <!-- Footer -->
+  <div class="page-footer">
+    <span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>

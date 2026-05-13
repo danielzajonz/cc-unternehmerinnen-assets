@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inhaltsverzeichnis</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 210mm;
+  height: 297mm;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.toc-page {
+  width: 210mm;
+  height: 297mm;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 22mm 24mm 20mm 24mm;
+}
+
+/* Page title */
+.toc-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #A30009;
+  text-align: center;
+  margin-bottom: 6mm;
+}
+
+/* Decorative divider under title */
+.toc-divider {
+  position: relative;
+  width: 80px;
+  height: 1px;
+  background: #A30009;
+  margin: 0 auto 10mm auto;
+}
+.toc-divider::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: #A30009;
+}
+
+/* Part headers */
+.toc-part {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #A30009;
+  margin-top: 7mm;
+  margin-bottom: 3mm;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.5px solid rgba(163,0,9,0.2);
+}
+
+/* TOC entries */
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  padding: 2.2mm 0;
+}
+
+.toc-number {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #A30009;
+  width: 10mm;
+  flex-shrink: 0;
+  letter-spacing: 1px;
+}
+
+.toc-label {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222;
+  flex-grow: 1;
+}
+
+.toc-dots {
+  flex-grow: 1;
+  border-bottom: 0.5px dotted #ccc;
+  margin: 0 3mm;
+  min-width: 10mm;
+  position: relative;
+  top: -2px;
+}
+
+.toc-page-num {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #888;
+  flex-shrink: 0;
+  min-width: 6mm;
+  text-align: right;
+}
+
+/* Intro entries (no number) */
+.toc-entry.intro .toc-number {
+  visibility: hidden;
+}
+
+.toc-entry.intro .toc-label {
+  font-style: italic;
+  color: #444;
+}
+
+/* Footer line */
+.toc-footer {
+  position: absolute;
+  bottom: 18mm;
+  left: 24mm;
+  right: 24mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4mm;
+}
+
+.toc-footer-line {
+  flex-grow: 1;
+  height: 0.5px;
+  background: rgba(163,0,9,0.15);
+}
+
+.toc-footer-diamond {
+  width: 6px;
+  height: 6px;
+  background: rgba(163,0,9,0.25);
+  transform: rotate(45deg);
+  flex-shrink: 0;
+}
+
+/* Left accent bar */
+.accent-bar {
+  position: absolute;
+  top: 22mm;
+  left: 18mm;
+  width: 0.5px;
+  height: 257mm;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(163,0,9,0.15) 10%,
+    rgba(163,0,9,0.15) 90%,
+    transparent 100%
+  );
+}
+
+/* Page footer with personal info */
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 24mm;
+  right: 24mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: #aaa;
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.12);
+  padding-top: 2.5mm;
+}
+</style>
+</head>
+<body>
+<div class="toc-page">
+
+  <!-- Subtle left accent line -->
+  <div class="accent-bar"></div>
+
+  <!-- Title -->
+  <div class="toc-title">Inhaltsverzeichnis</div>
+  <div class="toc-divider"></div>
+
+  <!-- Intro section -->
+  <div class="toc-entry intro">
+    <span class="toc-number"></span>
+    <span class="toc-label">Einleitung</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">3</span>
+  </div>
+  <div class="toc-entry intro">
+    <span class="toc-number"></span>
+    <span class="toc-label">Die fünf Unternehmerinnen-Typen</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">5</span>
+  </div>
+
+  <!-- TEIL 1 -->
+  <div class="toc-part">Teil 1 — Du als Frau</div>
+
+  <div class="toc-entry">
+    <span class="toc-number">01</span>
+    <span class="toc-label">Dein Unternehmerinnen-Typ</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">7</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">02</span>
+    <span class="toc-label">Dein Profil — Wer Du wirklich bist</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">10</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">03</span>
+    <span class="toc-label">Deine Persönlichkeit</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">13</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">04</span>
+    <span class="toc-label">Dein Zusammenspiel</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">16</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">05</span>
+    <span class="toc-label">Kommunikation & Beziehungen</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">19</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">06</span>
+    <span class="toc-label">Deine Wachstumsfelder — das ehrliche Kapitel</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">22</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">07</span>
+    <span class="toc-label">Deine persönliche Bedienungsanleitung</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">25</span>
+  </div>
+
+  <!-- TEIL 2 -->
+  <div class="toc-part">Teil 2 — Du als Unternehmerin</div>
+
+  <div class="toc-entry">
+    <span class="toc-number">08</span>
+    <span class="toc-label">Deine Strategie & Autorität im Business</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">28</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">09</span>
+    <span class="toc-label">Dein Business-Modell & Angebotsstrategie</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">31</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">10</span>
+    <span class="toc-label">Sichtbarkeit & Kundengewinnung</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">34</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">11</span>
+    <span class="toc-label">Zusammenarbeit & Partnerschaften</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">37</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">12</span>
+    <span class="toc-label">Dein Energie-Rhythmus</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">40</span>
+  </div>
+  <div class="toc-entry">
+    <span class="toc-number">13</span>
+    <span class="toc-label">Deine nächsten Schritte</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">43</span>
+  </div>
+
+  <!-- Abschluss -->
+  <div class="toc-entry intro" style="margin-top: 3mm;">
+    <span class="toc-number"></span>
+    <span class="toc-label">Abschluss</span>
+    <span class="toc-dots"></span>
+    <span class="toc-page-num">46</span>
+  </div>
+
+  <!-- Footer -->
+  <div class="page-footer">
+    <span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+
+</div>
+</body>
+</html>

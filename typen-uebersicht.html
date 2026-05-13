@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Die fünf Unternehmerinnen-Typen</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  background: #d4c9c6;
+  padding: 18mm 22mm 20mm 22mm;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 22mm;
+  right: 22mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: rgba(0,0,0,0.35);
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.15);
+  padding-top: 2.5mm;
+}
+
+.page-title-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #A30009;
+  margin-bottom: 3mm;
+}
+
+.page-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 3mm;
+}
+
+.intro-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 5mm;
+}
+
+/* Featured type — strong highlight */
+.type-card-featured {
+  display: flex;
+  background: #fff;
+  border-left: 4px solid #A30009;
+  border-radius: 0 8px 8px 0;
+  padding: 4mm 5mm;
+  margin-bottom: 3mm;
+  align-items: flex-start;
+  gap: 3.5mm;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.type-card-featured .type-emoji {
+  font-size: 28px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 1mm;
+}
+
+.type-card-featured .type-content { flex: 1; }
+
+.type-card-featured .type-header {
+  display: flex;
+  align-items: center;
+  gap: 2.5mm;
+  margin-bottom: 1.5mm;
+}
+
+.type-card-featured .type-name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #A30009;
+}
+
+.type-card-featured .type-badge {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  background: #A30009;
+  padding: 1mm 3mm;
+  border-radius: 3px;
+}
+
+.type-card-featured .type-pct {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 9px;
+  color: #777;
+}
+
+.type-card-featured .type-desc {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.65;
+  color: #1a1a1a;
+}
+
+/* Regular type cards */
+.type-card {
+  display: flex;
+  background: rgba(255,255,255,0.35);
+  border-radius: 6px;
+  padding: 3mm 4mm;
+  margin-bottom: 2mm;
+  align-items: flex-start;
+  gap: 3mm;
+}
+
+.type-card .type-emoji {
+  font-size: 18px;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: 0.5mm;
+}
+
+.type-card .type-content { flex: 1; }
+
+.type-card .type-header {
+  display: flex;
+  align-items: baseline;
+  gap: 2mm;
+  margin-bottom: 0.5mm;
+}
+
+.type-card .type-name {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: #000;
+}
+
+.type-card .type-pct {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8.5px;
+  color: #777;
+}
+
+.type-card .type-desc {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.65;
+  color: #222;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="page-title-label">Übersicht</div>
+  <div class="page-title">Die fünf Unternehmerinnen-Typen</div>
+  <div class="intro-text">Es gibt fünf Unternehmerinnen-Typen, jeder mit seiner eigenen Energie, seiner eigenen Stärke und seiner eigenen Art, ein Business aufzubauen. Keiner davon ist besser oder schlechter. Es gibt nur: passend zu Dir, oder nicht passend zu Dir. Hier ist die Übersicht, damit Du verstehst, wo Du im Gesamtbild stehst.</div>
+
+  <div class="{{card_class_ausdauer_queen}}">
+    <div class="type-emoji">⚡</div>
+    <div class="type-content">
+      <div class="type-header">
+        <span class="type-name">Die Ausdauer-Queen</span>
+        {{badge_ausdauer_queen}}
+        <span class="type-pct">37% aller Frauen</span>
+      </div>
+      <div class="type-desc">Die Ausdauer-Queens sind die Kraftwerke unter den Unternehmerinnen. Sie tragen eine innere Lebensenergie in sich, die sich jeden Morgen von selbst auffüllt. Ihre Stärke liegt in der Tiefe und im Durchhaltevermögen. Sie bauen, schaffen und verfeinern, bis etwas wirklich sitzt. Ausdauer-Queens finden ihre größte Erfüllung in Arbeit, die sie wirklich begeistert, und sie sind dafür gemacht, auf die Gelegenheiten des Lebens zu reagieren, statt Dinge aus dem Kopf heraus zu starten.</div>
+    </div>
+  </div>
+
+  <div class="{{card_class_vielseitige}}">
+    <div class="type-emoji">✨</div>
+    <div class="type-content">
+      <div class="type-header">
+        <span class="type-name">Die Vielseitige</span>
+        {{badge_vielseitige}}
+        <span class="type-pct">33% aller Frauen</span>
+      </div>
+      <div class="type-desc">Die Vielseitigen kombinieren die Ausdauer-Energie mit einer beeindruckenden Geschwindigkeit. Sie sind die Multitalente, die mehrere Projekte gleichzeitig jonglieren und dabei Abkürzungen finden, die andere nicht sehen. Ihr Weg ist nicht linear, und genau das ist ihre Stärke. Vielseitige sind schnell, anpassungsfähig und brauchen Abwechslung, um in ihrer Kraft zu bleiben. Sie müssen lernen, dass ihr Zickzack-Weg kein Fehler ist, sondern ihr Design.</div>
+    </div>
+  </div>
+
+  <div class="{{card_class_strategin}}">
+    <div class="type-emoji">👁️</div>
+    <div class="type-content">
+      <div class="type-header">
+        <span class="type-name">Die Strategin</span>
+        {{badge_strategin}}
+        <span class="type-pct">20% aller Frauen</span>
+      </div>
+      <div class="type-desc">Die Strateginnen sind die natürlichen Führungskräfte unter den Unternehmerinnen. Sie haben keine endlose Ausdauerenergie, dafür aber etwas viel Selteneres: die Fähigkeit, andere tief zu verstehen und genau zu sehen, wo das Problem liegt und was die Lösung ist. Strateginnen arbeiten klüger, nicht härter. Sie brauchen Anerkennung für ihre Einsichten, und ihre größten Chancen entstehen, wenn sie sich so sichtbar machen, dass andere sie einladen, ihr Wissen zu teilen.</div>
+    </div>
+  </div>
+
+  <div class="{{card_class_pionierin}}">
+    <div class="type-emoji">🔥</div>
+    <div class="type-content">
+      <div class="type-header">
+        <span class="type-name">Die Pionierin</span>
+        {{badge_pionierin}}
+        <span class="type-pct">9% aller Frauen</span>
+      </div>
+      <div class="type-desc">Die Pionierinnen sind die Initiatorinnen. Sie sind hier, um neue Ideen in die Welt zu bringen und Dinge ins Rollen zu bringen, die ohne sie nie passiert wären. Pionierinnen sind unabhängig, brauchen Freiheit und haben eine natürliche Fähigkeit, Impulse zu setzen, die andere mitreißen. Ihre Herausforderung liegt darin, die Menschen um sich herum mitzunehmen, statt einfach loszurennen. Wenn sie lernen, andere zu informieren, bevor sie handeln, entsteht der Frieden, den sie suchen.</div>
+    </div>
+  </div>
+
+  <div class="{{card_class_barometerin}}">
+    <div class="type-emoji">🌙</div>
+    <div class="type-content">
+      <div class="type-header">
+        <span class="type-name">Die Barometerin</span>
+        {{badge_barometerin}}
+        <span class="type-pct">1% aller Frauen</span>
+      </div>
+      <div class="type-desc">Die Barometerinnen sind die seltensten unter den Unternehmerinnen-Typen. Sie haben ein völlig offenes Energiesystem, das die Stimmung ihrer Umgebung wie ein Spiegel aufnimmt und reflektiert. Das macht sie unglaublich sensibel für die Qualität von Menschen, Teams und Räumen. Barometerinnen können sofort spüren, ob etwas stimmt oder nicht. Sie brauchen mehr Zeit für große Entscheidungen als alle anderen Typen und müssen ihr Umfeld sorgfältig wählen, weil es ihren Erfolg und ihr Wohlbefinden direkt beeinflusst.</div>
+    </div>
+  </div>
+
+  <div class="page-footer">
+    <span>Lisa Müller · 14.03.1990</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>

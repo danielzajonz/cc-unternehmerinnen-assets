@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abschluss</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  background: #d4c9c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35mm 40mm;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  line-height: 1.25;
+  margin-bottom: 4mm;
+}
+
+.divider {
+  width: 60px;
+  height: 1px;
+  background: #A30009;
+  position: relative;
+  margin: 0 auto 8mm auto;
+}
+.divider::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  background: #A30009;
+}
+
+.body-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 2;
+  color: #1a1a1a;
+  text-align: center;
+  max-width: 130mm;
+}
+
+.body-text p {
+  margin-bottom: 5mm;
+}
+
+.body-text p:last-child {
+  margin-bottom: 0;
+}
+
+.pull-quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #A30009;
+  margin: 6mm 0;
+  line-height: 1.5;
+}
+
+.values {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 14px;
+  color: #444;
+  letter-spacing: 1px;
+  margin: 3mm 0 5mm 0;
+}
+
+.signature {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 18px;
+  color: #A30009;
+  margin-top: 8mm;
+}
+
+.signature-emoji {
+  font-style: normal;
+  font-size: 22px;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 22mm;
+  right: 22mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: rgba(0,0,0,0.3);
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.12);
+  padding-top: 2.5mm;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="title">Ein letztes Wort an Dich</div>
+  <div class="divider"></div>
+
+  <div class="body-text">
+    <p>Du hast diesen Report nicht zufällig in den Händen. Du hast ihn geöffnet, weil ein Teil von Dir wissen wollte, was in Dir steckt. Und jetzt weißt Du es.</p>
+
+    <p>Du weißt, welche Energie Dich antreibt. Du weißt, wie Dein Verstand funktioniert. Du weißt, wo Deine Kraft liegt und wo Du aufpassen musst, Dich nicht selbst im Weg zu stehen. Dieses Wissen kann niemand Dir nehmen. Es gehört Dir.</p>
+
+    <p>Aber Wissen allein verändert nichts. Was Dein Leben verändert, ist das, was Du ab heute damit machst.</p>
+  </div>
+
+  <div class="pull-quote">Wenn Dein Bauch gerade Ja sagt, dann folge ihm.</div>
+
+  <div class="body-text">
+    <p>Du musst diesen Weg nicht alleine gehen. Der Classy Business Circle ist eine Community von ambitionierten Frauen, die ihr eigenes Business aufbauen.</p>
+  </div>
+
+  <div class="values">Neidfrei. Unterstützend. Ehrlich.</div>
+
+  <div class="body-text">
+    <p>Wir freuen uns auf Dich.</p>
+  </div>
+
+  <div class="signature">Classy Ladies machen Business anders! <span class="signature-emoji">💄</span><br>Deine Lea</div>
+
+  <div class="page-footer">
+    <span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>

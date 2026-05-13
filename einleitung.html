@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Einleitung — 1 Seite, 11px</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  padding: 20mm 24mm 20mm 26mm;
+}
+
+.accent-bar {
+  position: absolute;
+  top: 20mm;
+  left: 18mm;
+  width: 0.5px;
+  height: 257mm;
+  background: linear-gradient(to bottom, transparent 0%, rgba(163,0,9,0.15) 10%, rgba(163,0,9,0.15) 90%, transparent 100%);
+}
+
+.section-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #A30009;
+  margin-bottom: 4mm;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 3mm;
+}
+
+.divider {
+  width: 50px;
+  height: 1px;
+  background: #A30009;
+  margin-bottom: 6mm;
+  position: relative;
+}
+.divider::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 22px;
+  width: 6px;
+  height: 6px;
+  background: #A30009;
+  transform: rotate(45deg);
+}
+
+.highlight-box {
+  background: #f3f0ed;
+  border-left: 3px solid #A30009;
+  border-radius: 0 6px 6px 0;
+  padding: 4.5mm 5mm;
+  margin-bottom: 5mm;
+}
+
+.highlight-box p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+}
+
+.body-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.85;
+  color: #222;
+}
+
+.body-text p {
+  margin-bottom: 4.5mm;
+}
+
+.body-text p:last-child {
+  margin-bottom: 0;
+}
+
+.pull-quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #A30009;
+  border-left: 2px solid #A30009;
+  padding-left: 5mm;
+  margin: 5mm 0;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 20mm;
+  right: 20mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: #aaa;
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.12);
+  padding-top: 2.5mm;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="accent-bar"></div>
+
+  <div class="section-label">Einleitung</div>
+  <div class="section-title">Die Business-Welt wurde von Männern gebaut. Für Männer.</div>
+  <div class="divider"></div>
+
+  <div class="highlight-box">
+    <p>Hustle harder. Skaliere schneller. Schlaf weniger. Dominiere den Markt. Das sind die Regeln, nach denen die meisten Unternehmerinnen versuchen, ihr Business aufzubauen. Nicht weil sie es wollen, sondern weil ihnen niemand gezeigt hat, dass es einen anderen Weg gibt.</p>
+  </div>
+
+  <div class="body-text">
+    <p>Dabei trägt jeder Mensch zwei Energien in sich. Eine männliche und eine weibliche. Die männliche Energie ist Struktur, Logik und Kontrolle. Sie fragt: "Was ist der effizienteste Weg zum Ergebnis?" Die weibliche Energie ist Intuition, Verbindung und Kreativität. Sie fragt: "Was fühlt sich richtig an?" Beides ist wichtig. Aber unsere Business-Welt belohnt fast ausschließlich die männliche Seite.</p>
+
+    <p>Die Folgen sind messbar. Laut der Pronova BKK sehen sich 61% der Frauen in der Arbeitswelt als burnoutgefährdet. In Führungspositionen fühlen sich 60% regelmäßig erschöpft. Frauen haben 78% mehr burnoutbedingte Fehltage als Männer. Nicht weil sie weniger belastbar sind, sondern weil das System nicht für sie gemacht wurde.</p>
+
+    <p>Gleichzeitig zeigt McKinsey in der Studie "Diversity Matters Even More" (2024): Unternehmen mit Frauen in Führungspositionen sind in Europa mit 62% höherer Wahrscheinlichkeit überdurchschnittlich profitabel. In Deutschland verdoppelt sich diese Wahrscheinlichkeit sogar. Intuition, Empathie und Verbindung sind keine weichen Faktoren. Es sind Wettbewerbsvorteile.</p>
+  </div>
+
+  <div class="pull-quote">Und genau hier setzt dieser Report an.</div>
+
+  <div class="body-text">
+    <p>Die meisten Persönlichkeitstests zeigen Dir nur eine Seite von Dir. Dieser Report ist anders. Wir verbinden ein psychologisches Modell mit einem energetischen Modell. Quasi: Intellekt und Ego mit Seele und Herz. Dein Persönlichkeitsprofil zeigt Dir, wie Dein Verstand funktioniert. Dein Energieprofil zeigt Dir, wie Deine Energie fließt. Erst die Kombination aus beidem ergibt Deine persönliche Betriebsanleitung. Nicht irgendein generischer Typ, sondern Du, in Deiner ganzen Komplexität.</p>
+
+    <p>Dieser Report wird sich anfühlen wie ein Tagebuch, das jemand über Dich geschrieben hat, der Dich wirklich kennt. Im ersten Teil schauen wir uns an, wer Du als Frau bist. Im zweiten Teil, was das für Dich als Unternehmerin bedeutet.</p>
+
+    <p>Eines vorweg: Dieser Report wird Dir nicht sagen, dass Du Dich zurücklehnen und warten sollst. Dein Design zeigt Dir den Weg, aber gehen musst Du ihn selbst. Es geht nicht darum, weniger zu tun. Es geht darum, das Richtige zu tun. Auf Deine Art.</p>
+  </div>
+
+  <div class="page-footer">
+    <span>Lisa Müller · 14.03.1990</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>
