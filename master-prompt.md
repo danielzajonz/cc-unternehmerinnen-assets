@@ -211,15 +211,14 @@ Wo es inhaltlich passt, das Programm natürlich erwähnen. Gleiche Logik wie Com
 - Expliziter CTA nur im Abschluss-Kapitel
 
 ### Namensverwendung
-- Den Vornamen der Frau MAXIMAL 3x im gesamten Report verwenden (z.B. einmal in Kapitel 01, einmal in Kapitel 04, einmal in Kapitel 13)
+- Den Vornamen der Frau MAXIMAL 3x im gesamten Report verwenden (z.B. einmal in Kapitel 01, einmal in Kapitel 06, einmal in Kapitel 12)
 - Der Report soll sich persönlich anfühlen durch "Du"-Ansprache, nicht durch ständige Namensnennung
 - Zu häufige Namensnennung wirkt künstlich und aufdringlich
 
 ### Formatierung
 - KEINE Spiegelstriche oder Aufzählungen im Report-Text (wirkt wie AI). Alles in Fließtext.
-- Einzige Ausnahme: Kapitel 13 (Nächste Schritte) darf nummerierte Schritte haben
 - Leerzeile zwischen JEDEM Absatz
-- KEINE Gedankenstriche (em-dashes "—") im Fließtext
+- KEINE Gedankenstriche (em-dashes "—") im Fließtext (ausgenommen die Kapitel-Überschriften wie "## 01 — Dein Unternehmerinnen-Typ", dort gehört der Em-Dash hin)
 - Du/Dir/Dein/Deine IMMER groß schreiben
 - Signatur am Ende (ZWEI separate Zeilen, nicht in einer Zeile):
   Zeile 1: "Classy Ladies machen Business anders! 💄"
@@ -245,18 +244,28 @@ Generiere ein Inhaltsverzeichnis im Format:
 ## Inhaltsverzeichnis
 
 01 — Dein Unternehmerinnen-Typ
+
 02 — Dein Profil
+
 03 — Deine Persönlichkeit
+
 04 — Dein Zusammenspiel
+
 05 — Kommunikation & Beziehungen
+
 06 — Deine Wachstumsfelder
+
 07 — Deine Bedienungsanleitung
+
 08 — Deine Strategie & Autorität im Business
+
 09 — Dein Business-Modell
+
 10 — Sichtbarkeit & Kundengewinnung
+
 11 — Zusammenarbeit & Partnerschaften
+
 12 — Dein Energie-Rhythmus
-13 — Deine nächsten Schritte
 
 (Die Titel sollen die tatsächlichen Kapitelüberschriften widerspiegeln. Fließtext, keine Spiegelstriche. Einfach jede Zeile als eigenen Absatz.)
 
@@ -480,22 +489,6 @@ Die Barometerinnen sind die seltensten unter den Unternehmerinnen-Typen. Sie hab
 - Angepasst an Typ (Ausdauer-Queen hat innere Antriebsenergie, Strategin nicht etc.)
 - ABGRENZUNG zu Kapitel 10: Hier geht es um den ALLGEMEINEN Energie-Rhythmus (Tagesstruktur, Schlaf, Erholung). Der Content-spezifische Rhythmus (wie oft posten, Batching etc.) steht in Kapitel 10. Nicht doppelt schreiben!
 - Länge: ca. 500-700 Wörter
-
-### Kapitel 13: Deine nächsten Schritte
-- Überschrift: "## 13 — Was Du jetzt tun kannst"
-- Einleitung: Du weißt jetzt mehr über Dich als die meisten Menschen je erfahren
-- 10 nummerierte, konkrete nächste Schritte, personalisiert auf Typ + Profil + Persönlichkeit
-- Jeder Schritt als eigener Abschnitt mit Zwischenüberschrift (## 1. Titel)
-- Die Schritte sollten eine Mischung sein aus:
-  - Sofort umsetzbar (heute noch)
-  - Kurzfristig (diese Woche)
-  - Mittelfristig (diesen Monat)
-- Schritt 9 sollte immer "Finde Deine Community" sein (mit Classy Business Circle Erwähnung)
-- Schritt 10 sollte immer "Lies diesen Report in 30 Tagen nochmal" sein
-- Abschluss: "Du hast alles, was Du brauchst. Der Rest liegt bei Dir."
-- Länge: ca. 600-800 Wörter
-- AUSNAHME: Dieses Kapitel darf nummerierte Schritte haben (kein Fließtext-Zwang)
-
 
 ### ABSCHLUSS + CTA (statischer Text — EXAKT wortgenau übernehmen, kein einziges Wort ändern oder umformulieren)
 
