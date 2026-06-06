@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Einleitung Seite 1</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Public+Sans:wght@300;400&display=swap');
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  padding: 20mm 24mm 20mm 26mm;
+}
+
+.accent-bar {
+  position: absolute;
+  top: 20mm;
+  left: 18mm;
+  width: 0.5px;
+  height: 257mm;
+  background: linear-gradient(to bottom, transparent 0%, rgba(163,0,9,0.15) 10%, rgba(163,0,9,0.15) 90%, transparent 100%);
+}
+
+.section-label {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #A30009;
+  margin-bottom: 4mm;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
+  line-height: 1.2;
+  margin-bottom: 3mm;
+}
+
+.divider {
+  width: 50px;
+  height: 1px;
+  background: #A30009;
+  margin-bottom: 6mm;
+  position: relative;
+}
+.divider::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 22px;
+  width: 6px;
+  height: 6px;
+  background: #A30009;
+  transform: rotate(45deg);
+}
+
+.highlight-box {
+  background: #f3f0ed;
+  border-left: 3px solid #A30009;
+  border-radius: 0 6px 6px 0;
+  padding: 4.5mm 5mm;
+  margin-bottom: 5mm;
+}
+
+.highlight-box p {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #222;
+  margin: 0;
+}
+
+.body-text {
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 1.85;
+  color: #222;
+}
+
+.body-text p {
+  margin-bottom: 4.5mm;
+}
+
+.body-text p:last-child {
+  margin-bottom: 0;
+}
+
+.pull-quote {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #A30009;
+  border-left: 2px solid #A30009;
+  padding-left: 5mm;
+  margin: 5mm 0;
+}
+
+.page-footer {
+  position: absolute;
+  bottom: 10mm;
+  left: 20mm;
+  right: 20mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 300;
+  font-size: 8px;
+  color: #aaa;
+  letter-spacing: 0.3px;
+  border-top: 0.5px solid rgba(163,0,9,0.12);
+  padding-top: 2.5mm;
+}
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="accent-bar"></div>
+  <div class="section-label">Einleitung</div>
+  <div class="section-title">Erst Deine Identität. Dann Dein Business.</div>
+  <div class="divider"></div>
+  <div class="highlight-box">
+    <p>Vielleicht kennst Du das. Du siehst das Reel einer Expertin, meldest Dich für ein Webinar an, kaufst den nächsten Kurs. Du baust eine neue Website, schärfst Deine Positionierung, probierst die nächste Business-Idee. Du gibst alles. Und ein paar Wochen später stehst Du wieder am selben Punkt.</p>
+  </div>
+  <div class="body-text">
+    <p>Entweder kommt ein kurzer Erfolg, der genauso schnell wieder versickert. Oder es kommt gar nichts, und Du denkst: Vielleicht bin ich einfach nicht gut genug.</p>
+    <p>Dann kommt das nächste glänzende Versprechen. Die nächste Strategie. Der nächste Weg. Und Du fängst wieder von vorne an.</p>
+    <p>Ich sage Dir gleich zu Beginn das Wichtigste: Das liegt nicht an Dir. Du hattest nur die falsche Landkarte.</p>
+    <p>Das Problem ist nicht, dass Du zu wenig tust. Das Problem ist, dass Du die Schritte in der falschen Reihenfolge gehst. Du setzt Strategien um, die andere Dir überstülpen, lange bevor Du weißt, wer Du als Unternehmerin überhaupt bist. Du baust auf Sand.</p>
+    <p>Die meisten zeigen Dir den einen Weg, der bei ihnen funktioniert hat, und drücken ihn jeder Frau gleich in die Hand. Aber es gibt nicht den einen richtigen Weg, Unternehmerin zu sein. Es gibt Deinen. Und solange Du ihn nicht kennst, kämpfst Du jeden Tag gegen Dich selbst und wunderst Dich, warum sich alles so anstrengend anfühlt.</p>
+  </div>
+  <div class="pull-quote">Deshalb fängt dieser Report woanders an. Nicht bei der Strategie. Sondern bei Dir.</div>
+  <div class="page-footer">
+    <span>Lisa Müller · 14.03.1990</span>
+    <span>&copy; Classy Confidence bei Lea Ernst</span>
+  </div>
+</div>
+
+</body>
+</html>
