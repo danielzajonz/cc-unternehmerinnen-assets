@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Die fünf Unternehmerin-Typen</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Public+Sans:wght@300;400&display=swap');
+@page { size: A4; margin: 0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Public Sans',sans-serif; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.art { width:210mm; height:297mm; position:relative; overflow:hidden; background:#f3f0ed; padding:28mm 30mm 22mm 34mm; }
+.art-accent { position:absolute; left:18mm; top:28mm; bottom:22mm; width:2px; background:linear-gradient(to bottom,transparent,rgba(163,0,9,0.22) 12%,rgba(163,0,9,0.22) 88%,transparent); }
+.art-eyebrow { font-family:'Oswald',sans-serif; font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:5px; color:#A30009; margin-bottom:4mm; }
+.art-h1 { font-family:'Playfair Display',serif; font-weight:700; font-size:34px; line-height:1.05; color:#1a1a1a; letter-spacing:-0.5px; margin-bottom:5mm; }
+.art-intro { font-family:'Public Sans',sans-serif; font-weight:300; font-size:10.5px; line-height:1.75; color:#3a3a3a; max-width:150mm; margin-bottom:7mm; }
+
+.type-row { display:flex; align-items:baseline; gap:5mm; padding:4mm 0; border-top:0.5px solid rgba(0,0,0,0.1); }
+.type-row:last-of-type { border-bottom:0.5px solid rgba(0,0,0,0.1); }
+.type-pct { font-family:'Playfair Display',serif; font-weight:500; font-style:italic; font-size:22px; color:#c9bdb8; width:18mm; flex-shrink:0; text-align:right; }
+.type-main { flex:1; }
+.type-head { margin-bottom:1.5mm; white-space:nowrap; }
+.type-icon { display:inline; }
+.type-icon svg { width:17px; height:17px; vertical-align:-3.5px; }
+.type-card-featured .type-icon svg { stroke:#A30009; }
+.type-name { font-family:'Oswald',sans-serif; font-weight:500; font-size:14px; text-transform:uppercase; letter-spacing:1px; color:#1a1a1a; margin-left:2.5mm; }
+.type-badge { display:inline-block; font-family:'Oswald',sans-serif; font-weight:500; font-size:7.5px; text-transform:uppercase; letter-spacing:1.5px; color:#fff; background:#A30009; padding:1mm 2.5mm; border-radius:2px; margin-left:2.5mm; vertical-align:2px; }
+.type-desc { font-family:'Public Sans',sans-serif; font-weight:300; font-size:10px; line-height:1.6; color:#444; }
+
+/* Featured */
+.type-row.type-card-featured { background:rgba(163,0,9,0.04); border-top:1px solid #A30009; border-bottom:1px solid #A30009; margin:1mm 0; padding:4mm 4mm; margin-left:-4mm; }
+.type-card-featured .type-pct { color:#A30009; }
+.type-card-featured .type-name { color:#A30009; font-weight:700; }
+.type-card-featured .type-desc { color:#2a2a2a; }
+
+.foot { position:absolute; bottom:12mm; left:34mm; right:30mm; display:flex; justify-content:space-between; font-family:'Oswald',sans-serif; font-weight:300; font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:#b3a8a3; border-top:0.5px solid rgba(163,0,9,0.15); padding-top:2.5mm; }
+</style>
+</head>
+<body>
+<div class="art">
+  <div class="art-accent"></div>
+  <div class="art-eyebrow">Übersicht</div>
+  <div class="art-h1">Die fünf Unternehmerin-Typen</div>
+  <div class="art-intro">Es gibt fünf Unternehmerin-Typen, jeder mit seiner eigenen Energie, seiner eigenen Stärke und seiner eigenen Art, ein Business aufzubauen. Keiner davon ist besser oder schlechter. Es gibt nur: passend zu Dir, oder nicht passend zu Dir. Hier ist die Übersicht, damit Du verstehst, wo Du im Gesamtbild stehst. Dein Typ ist dabei nur der Anfang. Gemeinsam mit Deiner Linienkombination und Deinem Persönlichkeitsprofil ergibt er fast 1.000 mögliche Kombinationen. Und genau diese eine Kombination macht Deine ganz persönliche Unternehmerin-Identität aus, so einzigartig wie Du.</div>
+
+  <div class="type-row {{card_class_ausdauer_queen}}">
+    <div class="type-pct">37%</div>
+    <div class="type-main">
+      <div class="type-head"><span class="type-icon">{{icon_ausdauer_queen}}</span><span class="type-name">Die Ausdauer-Queen</span> {{badge_ausdauer_queen}}</div>
+      <div class="type-desc">Die Kraftwerke unter den Unternehmerinnen. Eine innere Lebensenergie, die sich jeden Morgen von selbst auffüllt. Ihre Stärke liegt in Tiefe und Durchhaltevermögen. Sie bauen und verfeinern, bis etwas wirklich sitzt, und reagieren auf die Gelegenheiten des Lebens, statt aus dem Kopf heraus zu starten.</div>
+    </div>
+  </div>
+
+  <div class="type-row {{card_class_vielseitige}}">
+    <div class="type-pct">33%</div>
+    <div class="type-main">
+      <div class="type-head"><span class="type-icon">{{icon_vielseitige}}</span><span class="type-name">Die Vielseitige</span> {{badge_vielseitige}}</div>
+      <div class="type-desc">Ausdauer-Energie kombiniert mit beeindruckender Geschwindigkeit. Multitalente, die mehrere Projekte gleichzeitig jonglieren und Abkürzungen finden, die andere nicht sehen. Ihr Weg ist nicht linear, und genau das ist ihre Stärke. Sie brauchen Abwechslung, um in ihrer Kraft zu bleiben.</div>
+    </div>
+  </div>
+
+  <div class="type-row {{card_class_strategin}}">
+    <div class="type-pct">20%</div>
+    <div class="type-main">
+      <div class="type-head"><span class="type-icon">{{icon_strategin}}</span><span class="type-name">Die Strategin</span> {{badge_strategin}}</div>
+      <div class="type-desc">Die natürlichen Führungskräfte. Keine endlose Ausdauerenergie, dafür die Fähigkeit, andere tief zu verstehen und genau zu sehen, wo das Problem liegt. Sie arbeiten klüger, nicht härter, und ihre größten Chancen entstehen, wenn sie sich sichtbar machen und eingeladen werden.</div>
+    </div>
+  </div>
+
+  <div class="type-row {{card_class_pionierin}}">
+    <div class="type-pct">9%</div>
+    <div class="type-main">
+      <div class="type-head"><span class="type-icon">{{icon_pionierin}}</span><span class="type-name">Die Pionierin</span> {{badge_pionierin}}</div>
+      <div class="type-desc">Die Initiatorinnen. Hier, um neue Ideen in die Welt zu bringen und Dinge ins Rollen zu bringen, die ohne sie nie passiert wären. Unabhängig, freiheitsliebend, mit der Gabe, Impulse zu setzen, die andere mitreißen. Ihre Aufgabe: andere mitnehmen, statt einfach loszurennen.</div>
+    </div>
+  </div>
+
+  <div class="type-row {{card_class_barometerin}}">
+    <div class="type-pct">1%</div>
+    <div class="type-main">
+      <div class="type-head"><span class="type-icon">{{icon_barometerin}}</span><span class="type-name">Die Barometerin</span> {{badge_barometerin}}</div>
+      <div class="type-desc">Die seltensten unter den Typen. Ein völlig offenes Energiesystem, das die Stimmung der Umgebung wie ein Spiegel aufnimmt. Unglaublich sensibel für die Qualität von Menschen, Teams und Räumen. Sie brauchen mehr Zeit für große Entscheidungen und müssen ihr Umfeld sorgfältig wählen.</div>
+    </div>
+  </div>
+
+  <div class="foot"><span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span><span>© Classy Confidence by Lea Ernst</span></div>
+</div>
+</body>
+</html>

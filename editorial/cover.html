@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Unternehmerin-Identitäts-Report — {{vorname}}</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Public+Sans:wght@300;400&display=swap');
+@page { size: A4; margin: 0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Public Sans',sans-serif; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.cov { width:210mm; height:297mm; position:relative; overflow:hidden; background-color:#1a1a1a; background-image:{{cover_bg}}; background-size:cover; background-position:{{cover_pos}}; }
+.cov-logo { position:absolute; top:28mm; left:28mm; height:12mm; width:auto; z-index:2; }
+.cov-block { position:absolute; left:28mm; right:28mm; bottom:36mm; z-index:2; }
+.cov-eyebrow { font-family:'Oswald',sans-serif; font-weight:500; font-size:12px; text-transform:uppercase; letter-spacing:6px; color:rgba(255,255,255,0.80); margin-bottom:7mm; }
+.cov-title { font-family:'Playfair Display',serif; font-weight:700; font-size:64px; line-height:1.03; color:#fff; letter-spacing:-1px; }
+.cov-title em { font-style:italic; font-weight:500; color:#fff; }
+.cov-rule { width:54px; height:2px; background:#A30009; margin:10mm 0 7mm 0; }
+.cov-typ { font-family:'Playfair Display',serif; font-style:italic; font-weight:500; font-size:30px; color:rgba(255,255,255,0.92); }
+.cov-meta { position:absolute; left:28mm; right:28mm; bottom:20mm; z-index:2; font-family:'Oswald',sans-serif; font-weight:300; font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.72); }
+.cov-meta b { color:#fff; font-weight:500; }
+</style>
+</head>
+<body>
+<div class="cov">
+  <img class="cov-logo" src="{{asset_base}}/logo-white.png" alt="Classy Confidence">
+  <div class="cov-block">
+    <div class="cov-eyebrow">Dein persönlicher Report</div>
+    <div class="cov-title">Deine<br><em>Unternehmerin-</em><br><em>Identität</em></div>
+    <div class="cov-rule"></div>
+    <div class="cov-typ">{{typ_name}}</div>
+  </div>
+  <div class="cov-meta"><b>{{vorname}} {{nachname}}</b> &nbsp;·&nbsp; Profil {{profil}} &nbsp;·&nbsp; {{geburtsdatum}}</div>
+</div>
+</body>
+</html>

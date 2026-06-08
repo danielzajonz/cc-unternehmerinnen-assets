@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Inhalt</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Public+Sans:wght@300;400&display=swap');
+@page { size: A4; margin: 0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Public Sans',sans-serif; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.art { width:210mm; height:297mm; position:relative; overflow:hidden; background:#f3f0ed; padding:32mm 34mm 24mm 34mm; }
+.art-accent { position:absolute; left:18mm; top:32mm; bottom:24mm; width:2px; background:linear-gradient(to bottom,transparent,rgba(163,0,9,0.22) 12%,rgba(163,0,9,0.22) 88%,transparent); }
+.art-ghost { position:absolute; right:24mm; top:26mm; font-family:'Playfair Display',serif; font-style:italic; font-weight:400; font-size:150px; color:rgba(163,0,9,0.05); line-height:1; }
+.art-eyebrow { font-family:'Oswald',sans-serif; font-weight:500; font-size:11px; text-transform:uppercase; letter-spacing:5px; color:#A30009; margin-bottom:4mm; }
+.art-h1 { font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.0; color:#1a1a1a; letter-spacing:-1px; margin-bottom:10mm; }
+
+.toc-part { font-family:'Oswald',sans-serif; font-weight:500; font-size:10px; text-transform:uppercase; letter-spacing:3px; color:#9b8f8a; margin:8mm 0 2mm 0; }
+.toc-entry { display:flex; align-items:baseline; padding:2.4mm 0; }
+.toc-number { font-family:'Oswald',sans-serif; font-weight:500; font-size:12px; color:#A30009; width:11mm; flex-shrink:0; letter-spacing:1px; }
+.toc-label { font-family:'Playfair Display',serif; font-weight:400; font-size:13.5px; color:#1a1a1a; flex-grow:1; }
+.toc-dots { flex-grow:1; border-bottom:0.5px dotted #c9bdb8; margin:0 3mm; min-width:8mm; position:relative; top:-3px; }
+.toc-page-num { font-family:'Oswald',sans-serif; font-weight:300; font-size:11px; color:#9b8f8a; flex-shrink:0; min-width:6mm; text-align:right; }
+.toc-entry.intro .toc-number { visibility:hidden; }
+.toc-entry.intro .toc-label { font-style:italic; color:#5a5a5a; }
+
+.foot { position:absolute; bottom:12mm; left:34mm; right:34mm; display:flex; justify-content:space-between; font-family:'Oswald',sans-serif; font-weight:300; font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:#b3a8a3; border-top:0.5px solid rgba(163,0,9,0.15); padding-top:2.5mm; }
+</style>
+</head>
+<body>
+<div class="art">
+  <div class="art-accent"></div>
+  <div class="art-ghost">№</div>
+  <div class="art-eyebrow">Übersicht</div>
+  <div class="art-h1">Inhalt</div>
+{{toc_entries}}
+  <div class="foot"><span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span><span>© Classy Confidence by Lea Ernst</span></div>
+</div>
+</body>
+</html>
