@@ -176,6 +176,14 @@ STRIKTE REGELN (NIEMALS BRECHEN):
 - NIEMALS über "E-Mail-Liste aufbauen" sprechen
 - Nicht zu viel Fokus auf Empfehlungen als Strategie
 
+### Brand-Begriffe (ERLAUBT — Leas eigenes Vokabular, NICHT von der Esoterik-Verbotsliste betroffen)
+Diese Begriffe sind Leas eigenes Business-Vokabular und dürfen verwendet werden. Einbau-Regel wie bei Programm/Community: je EINE natürliche Erwähnung mit einem Halbsatz Klartext-Erklärung, nie als Werbeblock, kein expliziter CTA (der kommt nur im Abschluss). Sparsam dosieren, der Report wird auch als kaltes Freebie gelesen.
+- Business DNA (Kapitel 09): Positionierung + Angebot + Zielgruppe + Differenzierung. Das, was aus der Identität etwas Verkaufbares macht.
+- Magnet-Marketing (Kapitel 10, Phase 2): Marketing, das anzieht statt jagt.
+- CT-Funnel (Kapitel 10): Ein Video, ein Button, aus Followern werden Kunden.
+- Hell-Yes-Sales (Kapitel 10): Verkaufen ohne zu überreden, das klare Ja erkennen.
+- Classy Business System (Kapitel 11): Aus dem Plan wird ein System, die Phasen werden zur Routine.
+
 ### Inhaltliche Verbote — NIEMALS sagen:
 - "Warte einfach, bis die richtigen Kunden zu dir kommen"
 - "Kaltakquise / aktives Ansprechen ist nichts für dich"
@@ -185,6 +193,7 @@ STRIKTE REGELN (NIEMALS BRECHEN):
 - Alles was suggeriert, man müsse NICHT durch Unbequemlichkeit durch
 
 ### Inhaltliche Pflichten — IMMER betonen:
+- Identity-First: Jede Business-Empfehlung leitet sich aus der Identität ab (Typ + Linie + Persönlichkeit). Erst wer sie ist, dann was sie tut. Strategie folgt aus der Identität, nicht umgekehrt.
 - "Dein Design zeigt Dir den WEG, aber gehen musst Du ihn selbst"
 - Am Anfang: aktiv Kunden gewinnen ist Pflicht, egal welcher Typ
 - Das Design zeigt WIE man es am besten macht, nicht DASS man es nicht machen muss
@@ -227,8 +236,9 @@ Wo es inhaltlich passt, das Programm natürlich erwähnen. Gleiche Logik wie Com
 
 ### Phasen-Modell für Kapitel 10 (Sichtbarkeit & Kundengewinnung)
 - Phase 1 "Die Pflicht": Aktiv rausgehen, Gespräche führen, Angebot direkt anbieten. Für JEDEN Typ Pflicht.
-- Phase 2 "Die Systeme": Erste Marketing-Systeme aufbauen, Content starten. Hier fließt der Typ ein.
+- Phase 2 "Die Systeme": Erste Marketing-Systeme aufbauen, Content starten. Hier fließt der Typ ein. Diese Systeme heißen bei Lea Magnet-Marketing (Marketing, das anzieht statt jagt); ein konkretes Beispiel ist der CT-Funnel (ein Video, ein Button, aus Followern werden Kunden). Begriffe je einmal natürlich erwähnen, nicht wiederholen.
 - Phase 3 "Der Sog": Typ-gerechtes Marketing voll leben, Sog aufbauen.
+- Sales-Aspekt: Verkaufen typgerecht als Hell-Yes-Sales benennen (verkaufen ohne zu überreden, das klare Ja erkennen), einmal natürlich erwähnt.
 - KEINE Euro-Beträge oder Umsatzzahlen in den Phasen-Überschriften oder im Text!
 
 ---
@@ -382,6 +392,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 ### Kapitel 04: Dein Zusammenspiel — Was Dich einzigartig macht
 - Überschrift: "## 04 — Wenn Kopf und Energie sich treffen"
 - Superkraft: Was entsteht, wenn Typ + Profil + Persönlichkeit zusammenkommen?
+- Verankere den Gedanken (1-2 Sätze): Diese drei Schichten zusammen ergeben Deine einzigartige Unternehmerin-Identität, fast 1.000 mögliche Kombinationen, eine davon bist Du. Begriff "Unternehmerin-Identität" hier einmal natürlich nennen.
 - Innere Spannung: Wo widersprechen sich die Teile? (z.B. Kopf vs. Bauch, Rückzug vs. Verbindung)
 - Warum sie sich oft missverstanden fühlt
 - Was das für ihr Business bedeutet (Überleitung zu Teil 2)
@@ -432,6 +443,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 
 ### Kapitel 09: Dein Business-Modell & Angebotsstrategie
 - Überschrift: "## 09 — Dein Business-Modell & Angebotsstrategie"
+- Rahmen (1 Satz, Identity-First): Deine Identität ist der Rohstoff, Deine Business DNA (Positionierung + Angebot + Zielgruppe + Differenzierung) macht daraus etwas Verkaufbares. Begriff "Business DNA" hier einmal mit diesem Halbsatz erklären, nicht wiederholen.
 - Welches Business-Modell passt zum Typ?
 - Ideales Angebotsformat (1:1, Gruppe, Kurs etc.)
 - Wie sie ihr Angebot strukturieren sollte
@@ -451,7 +463,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - NEU: Nach den 3 Phasen einen Abschnitt "Dein Content-Rhythmus" schreiben. Dieser beschreibt konkret, wie die Frau basierend auf ihrem Typ Content produzieren sollte. Die Empfehlungen basieren auf dem Energie-Muster des jeweiligen Typs:
 
   AUSDAUER-QUEEN (Generator):
-  Konstante Energie durch definiertes Sakralzentrum. Kann täglich Content produzieren, solange es sich richtig anfühlt. Kontinuierlicher Output ist ihre Stärke. Kein Batching nötig, eher ein flexibler Rhythmus von 3-5x pro Woche. Spontane Inspiration nutzen statt stur am Plan festhalten. Wenn Frustration aufkommt, ist das ein Zeichen, dass das Thema oder Format nicht mehr stimmt. Dann Richtung wechseln, nicht durchbeißen.
+  Konstante Energie durch ihre innere Antriebskraft. Kann täglich Content produzieren, solange es sich richtig anfühlt. Kontinuierlicher Output ist ihre Stärke. Kein Batching nötig, eher ein flexibler Rhythmus von 3-5x pro Woche. Spontane Inspiration nutzen statt stur am Plan festhalten. Wenn Frustration aufkommt, ist das ein Zeichen, dass das Thema oder Format nicht mehr stimmt. Dann Richtung wechseln, nicht durchbeißen.
 
   PIONIERIN (Manifestor):
   Wellenförmige Energie, nicht konstant. Intensive Schöpfungs-Bursts, dann tiefe Ruhephasen. Batching ist essentiell: In Hochphasen mehrere Reels/Posts auf einmal produzieren (1-2 intensive Tage), dann automatisiert posten während der Ruhephasen. 2-3 Posts pro Woche reichen, verdichtet auf wenige Produktionstage. Ruhe ist keine Faulheit, sondern Regeneration. Wenn der Körper Stopp sagt aber der Kopf weitermachen will: sofort Pause.
@@ -476,7 +488,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Kooperationen statt Konkurrenz
 - Wann sie sich Unterstützung holen sollte (operativ + strategisch)
 - Wie sie zusammenarbeitet ohne sich zu verlieren
-- Programm-Erwähnung + Community-Erwähnung passen hier natürlich
+- Programm-Erwähnung + Community-Erwähnung passen hier natürlich. Die Programm-Erwähnung darf den Namen Classy Business System nutzen (aus dem Plan wird ein System, die Phasen werden zur Routine), einmal als natürlicher Nebensatz, kein Werbeblock.
 - Länge: ca. 500-700 Wörter
 
 ### Kapitel 12: Dein Energie-Rhythmus
