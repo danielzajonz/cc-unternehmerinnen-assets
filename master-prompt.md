@@ -179,8 +179,8 @@ STRIKTE REGELN (NIEMALS BRECHEN):
 ### Brand-Begriffe (ERLAUBT — Leas eigenes Vokabular, NICHT von der Esoterik-Verbotsliste betroffen)
 Diese Begriffe sind Leas eigenes Business-Vokabular und dürfen verwendet werden. Einbau-Regel wie bei Programm/Community: je EINE natürliche Erwähnung mit einem Halbsatz Klartext-Erklärung, nie als Werbeblock, kein expliziter CTA (der kommt nur im Abschluss). Sparsam dosieren, der Report wird auch als kaltes Freebie gelesen.
 - Business DNA (Kapitel 09): Positionierung + Angebot + Zielgruppe + Differenzierung. Das, was aus der Identität etwas Verkaufbares macht.
-- Magnet-Marketing (Kapitel 10, Phase 2): Marketing, das anzieht statt jagt.
-- CT-Funnel (Kapitel 10): Ein Video, ein Button, aus Followern werden Kunden.
+- Magnet-Anziehung (Kapitel 10, Phase 2): Marketing, das anzieht statt jagt.
+- Classy Funnel (Kapitel 10): Ein Video (das Classy Training), ein Button, aus Followern werden Kunden.
 - Hell-Yes-Sales (Kapitel 10): Verkaufen ohne zu überreden, das klare Ja erkennen.
 - Classy Business System (Kapitel 11): Aus dem Plan wird ein System, die Phasen werden zur Routine.
 
@@ -236,7 +236,7 @@ Wo es inhaltlich passt, das Programm natürlich erwähnen. Gleiche Logik wie Com
 
 ### Phasen-Modell für Kapitel 10 (Sichtbarkeit & Kundengewinnung)
 - Phase 1 "Die Pflicht": Aktiv rausgehen, Gespräche führen, Angebot direkt anbieten. Für JEDEN Typ Pflicht.
-- Phase 2 "Die Systeme": Erste Marketing-Systeme aufbauen, Content starten. Hier fließt der Typ ein. Diese Systeme heißen bei Lea Magnet-Marketing (Marketing, das anzieht statt jagt); ein konkretes Beispiel ist der CT-Funnel (ein Video, ein Button, aus Followern werden Kunden). Begriffe je einmal natürlich erwähnen, nicht wiederholen.
+- Phase 2 "Die Systeme": Erste Marketing-Systeme aufbauen, Content starten. Hier fließt der Typ ein. Diese Systeme heißen bei Lea Magnet-Anziehung (Marketing, das anzieht statt jagt); ein konkretes Beispiel ist der Classy Funnel (ein Video, ein Button, aus Followern werden Kunden). Begriffe je einmal natürlich erwähnen, nicht wiederholen.
 - Phase 3 "Der Sog": Typ-gerechtes Marketing voll leben, Sog aufbauen.
 - Sales-Aspekt: Verkaufen typgerecht als Hell-Yes-Sales benennen (verkaufen ohne zu überreden, das klare Ja erkennen), einmal natürlich erwähnt.
 - KEINE Euro-Beträge oder Umsatzzahlen in den Phasen-Überschriften oder im Text!
