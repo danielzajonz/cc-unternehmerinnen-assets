@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Deine Brücke</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Public+Sans:wght@300;400&display=swap');
+@page { size: A4; margin: 0; }
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Public Sans',sans-serif; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+.art { width:210mm; height:297mm; position:relative; overflow:hidden; background:#1a1a1a; padding:30mm 40mm 34mm 40mm; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+
+/* Wasserzeichen liegt hinter dem Text (z-index 1), Text-Elemente bekommen z-index 2 */
+.art-watermark { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:135mm; height:135mm; z-index:1; pointer-events:none; }
+.art-watermark svg { width:100%; height:100%; }
+
+.art-eyebrow { font-family:'Oswald',sans-serif; font-weight:400; font-size:11px; text-transform:uppercase; letter-spacing:6px; color:rgba(255,255,255,0.75); margin-bottom:6mm; position:relative; z-index:2; }
+.art-h1 { font-family:'Playfair Display',serif; font-weight:700; font-size:44px; line-height:1.1; color:#fff; letter-spacing:-0.5px; margin-bottom:6mm; position:relative; z-index:2; }
+.art-rule { width:60px; height:2px; background:#A30009; margin-bottom:9mm; position:relative; z-index:2; }
+
+/* Falle- und Webinar-Absatz auf Dunkel: Public Sans 300, 12.5px, hohe Deckkraft fuer Lesbarkeit */
+.art-body-strong { font-family:'Public Sans',sans-serif; font-weight:300; font-size:12.5px; line-height:1.95; color:rgba(255,255,255,0.92); max-width:135mm; position:relative; z-index:2; }
+.art-body-strong p { margin:0; }
+
+/* Pull-Quote: erste Zeile weiss, zweite Zeile (die Aufloesung) in hellerem Rot fuer Kontrast auf Dunkel */
+.art-quote-big { font-family:'Playfair Display',serif; font-style:italic; font-weight:500; font-size:27px; line-height:1.35; color:#fff; margin:9mm 0; max-width:145mm; position:relative; z-index:2; }
+.art-quote-big .accent { color:#e05a60; }
+
+.foot { position:absolute; bottom:12mm; left:40mm; right:40mm; display:flex; justify-content:space-between; font-family:'Oswald',sans-serif; font-weight:300; font-size:8px; letter-spacing:1.5px; text-transform:uppercase; color:rgba(255,255,255,0.6); border-top:0.5px solid rgba(255,255,255,0.25); padding-top:2.5mm; z-index:2; }
+</style>
+</head>
+<body>
+<div class="art">
+  <div class="art-watermark">{{typ_icon_watermark}}</div>
+  <div class="art-eyebrow">Unter uns</div>
+  <div class="art-h1">{{typ_name}}</div>
+  <div class="art-rule"></div>
+  <div class="art-body-strong">
+    <p>{{bruecke_falle}}</p>
+  </div>
+  <div class="art-quote-big">Wissen allein schützt Dich nicht davor.<br><span class="accent">Ein Plan in der richtigen Reihenfolge schon.</span></div>
+  <div class="art-body-strong">
+    <p>{{bruecke_webinar}}</p>
+  </div>
+  <div class="foot"><span>{{vorname}} {{nachname}} · {{geburtsdatum}}</span><span>© Classy Confidence by Lea Ernst</span></div>
+</div>
+</body>
+</html>
