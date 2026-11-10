@@ -37,6 +37,21 @@ Deine Aufgabe: Schreibe einen vollständigen, personalisierten Report für eine 
 
 ---
 
+UMFANG UND TIEFE:
+
+Dieser Report ist ein umfangreiches Dokument, das die Leserin über mehrere Abende liest und immer wieder zur Hand nimmt. Sein Wert liegt darin, dass sie sich in konkreten Szenen aus ihrem Alltag wiedererkennt. Eine knappe Zusammenfassung ihrer Eigenschaften leistet das nicht, deshalb zählt hier Ausführlichkeit mehr als Kürze.
+
+Die 12 Kapitel haben zusammen mindestens 9.000 Wörter. Bei jedem Kapitel steht unten eine Mindest-Wortzahl. Sie ist verbindlich: Ein Kapitel, das darunter bleibt, ist zu kurz, ein etwas längeres ist in Ordnung.
+
+So entsteht die Länge, ohne dass Du etwas streckst:
+- Jeder Abschnitt unter einer Zwischenüberschrift (###) besteht aus mindestens drei Absätzen: erst eine konkrete Alltagsszene, in der sie sich wiedererkennt, dann die Erklärung, woher das bei ihr kommt, dann was es für sie bedeutet oder was sie daraus macht.
+- Führe jeden Gedanken zu Ende, statt ihn in einem Satz anzureißen. Zeig, wie sich etwas an einem gewöhnlichen Dienstag anfühlt, was sie dann denkt, was sie dann tut.
+- Schreib in kurzen Absätzen von zwei bis fünf Sätzen. Wechsle zwischen längeren Sätzen und kurzen, die für sich stehen.
+- Halte die Tiefe über alle 12 Kapitel gleich. Teil 2 (Kapitel 08 bis 12) ist der Business-Teil, auf den die Leserin am meisten wartet, und gerade diese Kapitel geraten leicht zu kurz. Die Kapitel 08, 09, 11 und 12 haben deshalb jeweils mindestens vier Abschnitte mit Zwischenüberschrift, jeder davon mit den drei Absätzen von oben. Kapitel 10 folgt seiner eigenen Gliederung weiter unten und gibt jedem Punkt daraus den vollen Raum.
+
+Schreibe den gesamten Report in einer einzigen Antwort, alle 12 Kapitel bis zum Ende von Kapitel 12 und alles, was danach noch verlangt ist.
+
+
 DATEN DER FRAU:
 
 Vorname: {{vorname}}
@@ -363,7 +378,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Erkläre das Nicht-Selbst (Warnsignal) und wann/warum es auftritt
 - Erkläre die Strategie und was sie konkret bedeutet (NICHT passiv sein!)
 - Schließe mit der Kernenergie als Unternehmerin
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 500 Wörter, Ziel 500 bis 600. Die Untergrenze ist verbindlich.
 - Stil: Direkte Ansprache, warmherzig aber ehrlich, keine Floskeln
 
 ### Kapitel 02: Dein Profil — Wer Du wirklich bist
@@ -374,7 +389,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Wie die beiden Linien zusammenspielen: Spannungen, Superkraft, Rhythmus
 - Bei Linie 2: IMMER betonen, dass Sichtbarkeit Pflicht ist trotz Rückzugsbedürfnis
 - Bei Linie 4: Community-Erwähnung passt hier natürlich rein
-- Länge: ca. 600-800 Wörter
+- Länge: mindestens 550 Wörter, Ziel 550 bis 650. Die Untergrenze ist verbindlich.
 
 ### Kapitel 03: Deine Persönlichkeit
 - Überschrift: "## 03 — Dein Persönlichkeitsprofil"
@@ -387,7 +402,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Jede Dimension: Was es bedeutet, wie es sich im Alltag zeigt, Stärke + Schattenseite
 - Abschluss: Was das zusammen über sie sagt
 - WICHTIG: Keine Systemnamen! Nie "Introversion" als Fachbegriff, sondern "nach innen gerichtet" etc.
-- Länge: ca. 600-800 Wörter
+- Länge: mindestens 750 Wörter, Ziel 750 bis 850. Die Untergrenze ist verbindlich.
 
 ### Kapitel 04: Dein Zusammenspiel — Was Dich einzigartig macht
 - Überschrift: "## 04 — Wenn Kopf und Energie sich treffen"
@@ -397,7 +412,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Warum sie sich oft missverstanden fühlt
 - Was das für ihr Business bedeutet (Überleitung zu Teil 2)
 - Programm-Erwähnung passt hier natürlich als Nebensatz
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 600 Wörter, Ziel 600 bis 700. Die Untergrenze ist verbindlich.
 
 ### Kapitel 05: Kommunikation & Beziehungen
 - Überschrift: "## 05 — Wie Du kommunizierst & Beziehungen lebst"
@@ -407,7 +422,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Beziehungen im Privaten (Partner, Freundschaften)
 - Was sie von anderen braucht
 - Community-Erwähnung passt hier natürlich
-- Länge: ca. 600-800 Wörter
+- Länge: mindestens 750 Wörter, Ziel 750 bis 850. Die Untergrenze ist verbindlich.
 
 ### Kapitel 06: Deine Wachstumsfelder — das ehrliche Kapitel
 - Überschrift: "## 06 — Was Dich zurückhält"
@@ -415,7 +430,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - 4-5 Schatten/Wachstumsfelder basierend auf der Kombination aus Typ + Profil + Persönlichkeit
 - Jeder Schatten: Was passiert, woher es kommt, konkretes Wachstumsfeld
 - Abschluss: Schatten sind Wegweiser, nicht Feinde. Einen aussuchen und dort anfangen.
-- Länge: ca. 600-800 Wörter
+- Länge: mindestens 800 Wörter, Ziel 800 bis 900. Die Untergrenze ist verbindlich.
 
 ### Kapitel 07: Deine persönliche Bedienungsanleitung
 - Überschrift: "## 07 — Wenn Du eine Bedienungsanleitung hättest"
@@ -427,7 +442,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
   - "So gehst Du mit [größtem Schatten] um" (aus Kapitel 06)
   - "So baust Du Beziehungen auf, die Dich tragen" (basierend auf Profil)
   - "So nutzt Du Deinen Verstand richtig" (basierend auf Persönlichkeit + Autorität)
-- Länge: ca. 600-800 Wörter
+- Länge: mindestens 900 Wörter, Ziel 900 bis 1000. Die Untergrenze ist verbindlich.
 
 
 ### TEIL 2: DU ALS UNTERNEHMERIN
@@ -439,7 +454,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Autorität erklärt: Wie sie die besten Business-Entscheidungen trifft
 - Die Kombination von Strategie + Autorität mit 2-3 konkreten Business-Szenarien
 - WICHTIG: Entscheidungsstil variiert stark! Bauchgefühl, Emotionale Klarheit, Intuition/Instinkt, Innerer Dialog, Mentale Abwägung, 28-Tage-Rhythmus — jeder funktioniert anders. KEINE HD-Fachbegriffe wie "Sakral", "Milz", "Lunar" verwenden!
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 750 Wörter, Ziel 750 bis 850. Die Untergrenze ist verbindlich.
 
 ### Kapitel 09: Dein Business-Modell & Angebotsstrategie
 - Überschrift: "## 09 — Dein Business-Modell & Angebotsstrategie"
@@ -450,7 +465,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Wie sie ihr Angebot strukturieren sollte
 - Pricing: Warum sie wahrscheinlich zu günstig ist
 - Team und Delegation: Wann und wie abgeben
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 900 Wörter, Ziel 900 bis 1000. Die Untergrenze ist verbindlich.
 
 ### Kapitel 10: Sichtbarkeit & Kundengewinnung
 - Überschrift: "## 10 — Sichtbarkeit & Kundengewinnung"
@@ -485,7 +500,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 
   WICHTIG für alle Typen: Den Content-Rhythmus-Abschnitt NICHT als Aufzählung schreiben! Es wird nur der Typ der jeweiligen Frau beschrieben (nicht alle 5). In Fließtext, persönlich an sie gerichtet. Die tägliche-Sichtbarkeit-Grundregel klar vermitteln, aber als Befähigung ("so schaffst Du es jeden Tag"), nicht als Druck. Die Empfehlung soll sich anfühlen wie ein konkreter Plan, den sie morgen umsetzen kann.
 
-- Länge: ca. 800-1000 Wörter (länger als vorher wegen Content-Rhythmus-Abschnitt)
+- Länge: mindestens 1100 Wörter, Ziel 1100 bis 1300 (das längste Kapitel, wegen des Content-Rhythmus-Abschnitts). Die Untergrenze ist verbindlich.
 
 ### Kapitel 11: Zusammenarbeit & Partnerschaften
 - Überschrift: "## 11 — Zusammenarbeit & Partnerschaften"
@@ -495,7 +510,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Wann sie sich Unterstützung holen sollte (operativ + strategisch)
 - Wie sie zusammenarbeitet ohne sich zu verlieren
 - Programm-Erwähnung + Community-Erwähnung passen hier natürlich. Die Programm-Erwähnung darf den Namen Classy Business System nutzen (aus dem Plan wird ein System, die Phasen werden zur Routine), einmal als natürlicher Nebensatz, kein Werbeblock.
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 700 Wörter, Ziel 700 bis 800. Die Untergrenze ist verbindlich.
 
 ### Kapitel 12: Dein Energie-Rhythmus
 - Überschrift: "## 12 — Dein Energie-Rhythmus"
@@ -506,7 +521,7 @@ Die Barometerinnen sind die seltensten unter den Unternehmerin-Typen. Sie haben 
 - Erholungssignale, die sie nicht ignorieren sollte
 - Angepasst an Typ (Ausdauer-Queen hat innere Antriebsenergie, Strategin nicht etc.)
 - ABGRENZUNG zu Kapitel 10: Hier geht es um den ALLGEMEINEN Energie-Rhythmus (Tagesstruktur, Schlaf, Erholung). Der Content-spezifische Rhythmus (wie oft posten, Batching etc.) steht in Kapitel 10. Nicht doppelt schreiben!
-- Länge: ca. 500-700 Wörter
+- Länge: mindestens 750 Wörter, Ziel 750 bis 850. Die Untergrenze ist verbindlich.
 
 ### ABSCHLUSS + CTA (statischer Text — EXAKT wortgenau übernehmen, kein einziges Wort ändern oder umformulieren)
 
